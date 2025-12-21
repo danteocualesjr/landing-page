@@ -221,39 +221,73 @@ function LandingPage() {
             </div>
           </div>
         </div>
+      </main>
 
-        {/* Feature Cards */}
+      {/* Features Section */}
+      <section className="features-section">
+        <h2 className="features-title">Everything You Need</h2>
+        <p className="features-subtitle">
+          Powerful features designed to help you create, manage, and optimize content at scale.
+        </p>
         <div className="features">
           <div className="feature-card">
             <div className="feature-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
               </svg>
             </div>
-            <h4>Lightning Fast</h4>
-            <p>Generate a month of content in under 5 minutes</p>
+            <h4>Quick Start</h4>
+            <p>Get up and running in minutes with our intuitive setup process. No technical expertise required.</p>
           </div>
           <div className="feature-card">
             <div className="feature-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <circle cx="12" cy="12" r="10"/>
-                <path d="M12 6v6l4 2"/>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M3 3v18h18M7 16l4-8 4 8M7 12h10"/>
               </svg>
             </div>
-            <h4>Save 40+ Hours</h4>
-            <p>Every week on content creation</p>
+            <h4>Analytics & Insights</h4>
+            <p>Track performance with real-time analytics and actionable insights to optimize your content strategy.</p>
           </div>
           <div className="feature-card">
             <div className="feature-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M12 20V10M18 20V4M6 20v-4"/>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75M13 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"/>
               </svg>
             </div>
-            <h4>3x Engagement</h4>
-            <p>Average increase in social metrics</p>
+            <h4>Team Collaboration</h4>
+            <p>Work seamlessly with your team. Share, review, and collaborate on content in real-time.</p>
+          </div>
+          <div className="feature-card">
+            <div className="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                <path d="M12 18h.01"/>
+              </svg>
+            </div>
+            <h4>Mobile Friendly</h4>
+            <p>Access and manage your content from anywhere. Fully responsive design works perfectly on all devices.</p>
+          </div>
+          <div className="feature-card">
+            <div className="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h4>Secure & Protected</h4>
+            <p>Enterprise-grade security keeps your data safe. End-to-end encryption and regular security audits.</p>
+          </div>
+          <div className="feature-card">
+            <div className="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                <path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12"/>
+              </svg>
+            </div>
+            <h4>Easy Integrations</h4>
+            <p>Connect with your favorite tools. Seamless integrations with popular platforms and APIs.</p>
           </div>
         </div>
-      </main>
+      </section>
 
       {/* Footer */}
       <footer className="footer">
