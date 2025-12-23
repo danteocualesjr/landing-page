@@ -20,6 +20,7 @@ function LandingPage() {
   }, [])
 
   // Calculate launch date (14 days from today)
+  
   const getLaunchDate = () => {
     const today = new Date()
     const launchDate = new Date(today)
