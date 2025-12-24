@@ -28,11 +28,13 @@ html {
 
 body {
   font-family: 'Instrument Sans', -apple-system, sans-serif;
-  background: var(--bg-primary);
-  color: var(--text-primary);
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 /* Landing Page Container */
