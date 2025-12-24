@@ -83,10 +83,13 @@ function LandingPage() {
   return (
     <div className="landing-page">
       {/* Animated background */}
-      <div className="bg-gradient" style={{
-        '--mouse-x': `${mousePosition.x}%`,
-        '--mouse-y': `${mousePosition.y}%`
-      }} />
+      <div 
+        className="bg-gradient" 
+        style={{
+          '--mouse-x': `${mousePosition.x}%`,
+          '--mouse-y': `${mousePosition.y}%`
+        }}
+      />
       <div className="bg-grid" />
       <div className="bg-noise" />
       
